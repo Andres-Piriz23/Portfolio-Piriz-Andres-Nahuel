@@ -22,9 +22,8 @@
     </ul>
 
     <div class="main">
-        <a href="" class="user">Ingresar</a> <!-- Agregar icono antes de Ingresar -->
-        <a href="">Registrarse</a>
-        <div class="bx-menu" id="menu-icon"><img src="images/menu-op.png" alt="" width="23px" height="23px"> </div> <!-- icono hamburguesa -->
+        <a href="" class="user">Descargar CV</a> <!-- Agregar icono antes de Ingresar -->
+        <div class="bx-menu" id="menu-icon"><img src="images/menu-opciones.png" alt="" > </div> <!-- icono hamburguesa -->
     </div>
 
 </header>
@@ -34,12 +33,12 @@
 
         <!-- Titulos y subtitulos del hero -->
         <div class="title-hero">
-            <h1>Hola, soy Andrés Piriz <br>Front End Developer </h1>
+            <h1>Hola, soy Andrés <br>  Front End Developer </h1>
             <div class="subtitle-hero">
                 <h4>Me apasiona el desarrollo web y ofrezco servicios informáticos, combinando mi pasión por la tecnología con soluciones prácticas.</h4>
             </div>
-            <button type="button" class="btn btn-primary">Conóceme</button>
-            <button type="button" class="btn btn-danger">Hablemos</button>
+            <button type="button" class="btn">Conóceme</button>
+            <button type="button" class="btn" id="btn-hablar">Hablemos</button>
         </div>
         
         <!-- Portada del hero -->
@@ -48,9 +47,6 @@
         </div>
     </section>
     <!-- Fin sección del Hero -->
-
-
-
 
 
 
@@ -65,15 +61,44 @@
 
     <!-- Sección de educación/Cursos -->
     <section class="services" id="services">    
-                    <h1>Educación</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia aliquam corporis totam quod sint quasi at sunt, omnis eveniet harum doloribus consequatur fugiat, enim iusto perferendis reiciendis nobis, eos odio.
-                    Vero ducimus rem voluptates necessitatibus libero ad architecto suscipit, et inventore rerum, ea qui, aperiam sapiente modi! Minima, iure porro quis magnam adipisci ut eveniet nostrum consectetur animi, beatae provident.
-                    Odit architecto eligendi, non labore dolorem ex, odio placeat, eos repellendus ipsam eaque alias natus asperiores debitis libero. Nisi fugit voluptates cum assumenda, deserunt sequi unde sunt dolorum debitis est?
-                    Earum ullam alias laboriosam libero quia. Tempora quasi sequi praesentium iusto quam impedit fugit vel, illum quis, dolores sapiente culpa iure nam quae voluptatibus ipsa. Adipisci quo repellat sunt iure.</p>     
+        <h1>Servicios</h1>
+            <p>Te ofrezco soluciones prácticas y personalizadas en tecnología, adaptadas a tus necesidades. Desde el desarrollo de sitios web hasta soporte técnico para computadoras y celulares, mi objetivo es brindarte un servicio confiable, claro, eficiente y por supuesto al mejor precio.</p>     
+    
+            <!-- Contenedor gral. de las cards -->
+    <div class="container-cards">
+        <div class="card">
+            <img src="images/tecnico-cel.jpg" alt="">
+            <h3>Reparación de celulares</h3>
+            <p>Realizamos cambios de módulos, soldadura, cambio de pin de carga y mucho más! </p>
+        </div>
+
+        <div class="card">
+            <img src="images/desarrollo-web.jpg" alt="">
+            <h3>Desarrollo de sitios web</h3>
+            <p>Creamos soluciones digitales para potenciar empresa, desarrollando sistemas de alta calidad.</p>
+        </div>
+
+        <div class="card">
+            <img src="images/tecnico-pc.jpg" alt="">
+            <h3>Reparación de PC</h3>
+            <p>Reparamos todo tipo de computadoras, laptops, AIO en 48 hs como máximo y con precios accesibles</p>
+        </div>
+
+        <div class="card">
+            <img src="images/diseño-grafico.jpeg" alt="">
+            <h3>Diseño gráfico</h3>
+            <p>Te ayudamos a crear diseños elegantes para logos, sitios web, edición de imágenes y más.</p>
+        </div>
+           
+    </div>   
+
+    <div class="llamada-accion">
+        <button class="btn-turno">Solicitar mi turno YA !</button>
+    </div>
+        
     </section>
     
     
-   
 
     <!-- Sección de Portfolio -->
     <section class="portfolio" id="portfolio">
@@ -85,12 +110,22 @@
     <!-- Seccion de Contacto-->
     <section class="contact" id="contact">
         <h1>Contacto</h1>
+        <p>¿Tenés una idea, consulta o proyecto en mente? No dudes en escribirme. Estoy disponible para colaborar, ayudarte con soluciones tecnológicas o simplemente charlar sobre cómo puedo aportarte valor.</p>
     </section>
 
 
    <!-- Footer de la pagina -->
     <footer>
-        <p>Copyright 2025. Todos los derechos reservados.</p>
+
+        <div class="container-footer">
+            <div class="social-media">
+                <!-- Iconos redes sociales -->
+            </div>
+            <div class="derechos">
+                <p>Copyright 2025. Todos los derechos reservados.</p>
+            </div>
+        </div>
+   
     </footer>
     
     <script type="text/javascript" src="js/script.js"></script>
