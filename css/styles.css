@@ -51,7 +51,7 @@ header a {
     align-items: center;
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
 }
@@ -215,6 +215,7 @@ header a {
     padding: 30px 40px;
 }
 
+/* Título sección "Sobre mí "*/
 .aboutMe h1 {
     font-size: 50px;
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -223,14 +224,29 @@ header a {
     text-align: center;
     margin-bottom: 40px;
     color: white;
+    border: 1px solid rgb(0, 128, 17);
 }
 
-.imagen-about{
-    width: 400px;
+.contenedor-info-about {
+    width: 100%;
+    height: auto;
+    border: 1px solid purple;
 }
 
-.imagen-about img{
+/* Imagen de la sección "Sobre mí" */
+.imagen-about {
     width: 400px;
+    border: 1px solid black;
+}
+
+.imagen-about img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Descripción "Sobre mí "*/
+.description-about {
+    border: 1px solid yellow;
 }
 
 
@@ -244,10 +260,10 @@ header a {
 /* Sección Servicios */
 .services {
     font-size: 20px;
-    padding: 30px 40px;   
+    padding: 30px 40px;
     background-color: #F5EEDD;
 
-    
+
 }
 
 .services h1 {
@@ -270,7 +286,7 @@ header a {
 }
 
 /* Contenedor de los cards */
-.container-cards{
+.container-cards {
     background-color: #F5EEDD;
 
     margin-top: 15px;
@@ -281,11 +297,11 @@ header a {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
 /* Cada uno de los cards */
-.card{
+.card {
     width: 300px;
     height: auto;
     margin-top: 30px;
@@ -296,14 +312,14 @@ header a {
 }
 
 /* Imagen de la card */
-.card img{
+.card img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 5px;
 }
 
 /* Título de card */
-.card h3{
+.card h3 {
     text-align: center;
     margin-bottom: 10px;
     width: 100%;
@@ -314,39 +330,39 @@ header a {
 }
 
 /* Párrafo de card */
-.card p{
+.card p {
     text-align: center;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
 
 /* Efectos sobre las cards */
-.card:hover{
+.card:hover {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
 }
 
 
 /* Boton solicitar turno */
-.llamada-accion{
+.llamada-accion {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
 }
 
-.btn-turno{
+.btn-turno {
     background-color: white;
     width: 400px;
     height: 60px;
     font-size: 25px;
     font-weight: bold;
-    border-radius: 30px; 
-    border: 1px solid #E83F25; 
-    color: #E83F25; 
+    border-radius: 30px;
+    border: 1px solid #E83F25;
+    color: #E83F25;
     cursor: pointer;
 }
 
-.btn-turno:hover{
+.btn-turno:hover {
     background-color: #E83F25;
     color: white;
 }
@@ -375,7 +391,7 @@ header a {
     align-items: center;
 }
 
-.contact h1{
+.contact h1 {
     text-align: center;
     color: white;
     font-size: 50px;
@@ -385,15 +401,15 @@ header a {
     margin-bottom: 30px;
 }
 
-.formulario{
+.formulario {
     width: 37%;
     padding: 10px 30px;
-    background-color:  #af4848;
+    background-color: #af4848;
     border-radius: 10px;
     padding-top: 20px;
 }
 
-.formulario p{
+.formulario p {
     color: white;
     font-size: 16px;
     text-align: center;
@@ -401,7 +417,7 @@ header a {
     font-family: "Roboto", sans-serif;
 }
 
-.campo{
+.campo {
     width: 100%;
     height: 35px;
     margin-bottom: 10px;
@@ -412,7 +428,7 @@ header a {
     font-family: "Roboto", sans-serif;
 }
 
-#mensaje{
+#mensaje {
     margin-bottom: 10px;
     padding-left: 10px;
     border: none;
@@ -424,7 +440,7 @@ header a {
 }
 
 /* Boton enviar del formulario contacto */
-.btn-form{
+.btn-form {
     width: 180px;
     height: 35px;
     background-color: white;
@@ -436,20 +452,55 @@ header a {
 }
 
 /* Efectos del boton enviar formulario */
-.btn-form:hover{
+.btn-form:hover {
     background-color: rgb(44, 198, 44);
     color: white;
     font-weight: bold;
 }
 
 
-/* Pie de página - footer */
+/* Sección Footer */
 
 footer {
     width: 100%;
-    height: 220px;
+    height: 165px;
     background-color: #102E50;
+    padding: 25px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.social-media {
+    width: 350px;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media a img{
+    width: 40px;
+    height: auto;
+}
+
+.social-media a img:hover{
+    transform: scale(1.1);
+}
+
+.derechos{
+    width: auto;
+    height: auto;
     color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    margin-top: 15px;
 }
 
 
