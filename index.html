@@ -53,7 +53,17 @@
     <!-- Seccion Sobre mí -->
     <section class="aboutMe" id="about">
         <h1>Sobre mí</h1>
-        <p>Soy estudiante de cuarto año de Licenciatura en Sistemas, apasionado por la tecnología y con un sólido conocimiento teórico en áreas clave de la informática. Como técnico de computadoras, he desarrollado habilidades prácticas para resolver problemas y mantener sistemas eficientes. <br> Mi enfoque proactivo y habilidades analíticas me han permitido abordar desafíos técnicos de manera efectiva durante mi formación académica.</p>
+        
+        <!-- Imagen sobre mí-->
+        <div class="imagen-about">
+            <img src="images/aboutMe.jpg" alt="">
+        </div>
+
+        <!-- Párrafo sobre mí -->
+        <div class="description-about">
+            <p>Soy estudiante de cuarto año de Licenciatura en Sistemas, apasionado por la tecnología y con un sólido conocimiento teórico en áreas clave de la informática. Como técnico de computadoras, he desarrollado habilidades prácticas para resolver problemas y mantener sistemas eficientes. <br> Mi enfoque proactivo y habilidades analíticas me han permitido abordar desafíos técnicos de manera efectiva durante mi formación académica.</p>
+        </div>
+       
 
     </section>
 
@@ -110,8 +120,26 @@
     <!-- Seccion de Contacto-->
     <section class="contact" id="contact">
         <h1>Contacto</h1>
-        <p>¿Tenés una idea, consulta o proyecto en mente? No dudes en escribirme. Estoy disponible para colaborar, ayudarte con soluciones tecnológicas o simplemente charlar sobre cómo puedo aportarte valor.</p>
+
+        <div class="formulario">
+            <p>¿Tenés una idea, consulta o proyecto en mente? <br> No dudes en escribirme</p>
+
+            <form action="" method="post">
+                
+                <input type="text" class="campo" name="nombre" id="nombre" placeholder="Nombre" > <br>
+
+                <input type="email" class="campo" name="email" id="email" placeholder="Email"> <br>
+
+                <textarea name="mensaje" id="mensaje" cols="47" rows="8">Escriba aquí su mensaje</textarea> <br>
+
+                <input type="submit" value="Enviar" class="btn-form">
+
+            </form>
+
+        </div>
+    
     </section>
+    <!-- Fin seccion de Contacto -->
 
 
    <!-- Footer de la pagina -->
