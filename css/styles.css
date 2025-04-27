@@ -227,7 +227,7 @@ header a {
 .contenedor-info-about {
     width: 100%;
     height: auto;
-    
+
     /* Flexbox */
     display: flex;
 }
@@ -250,7 +250,7 @@ header a {
     padding: 20px 20px;
 }
 
-.description-about p{
+.description-about p {
     font-size: 18px;
     text-align: justify;
     padding: 20px 15px;
@@ -494,16 +494,16 @@ footer {
     justify-content: space-evenly;
 }
 
-.social-media a img{
+.social-media a img {
     width: 40px;
     height: auto;
 }
 
-.social-media a img:hover{
+.social-media a img:hover {
     transform: scale(1.1);
 }
 
-.derechos{
+.derechos {
     width: auto;
     height: auto;
     color: white;
@@ -604,12 +604,18 @@ max-width u max-height: Ancho o alto máximo del viewport*/
 
 }
 
-/* Tabletas */
 
-@media (max-width: 768px) {
+
+
+
+
+
+/* 600px como max */
+
+/* Página Hero */
+@media (max-width: 600px) {
     .hero {
-        background-color: #a4b522;
-        /* Flexbox */
+        margin-top: 93px;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -637,8 +643,85 @@ max-width u max-height: Ancho o alto máximo del viewport*/
         height: auto;
     }
 
+}
+
+/* Pagina: Sobre Mí */
+@media (max-width: 600px) {
+
+    .aboutMe{
+        width: 552px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contenedor-info-about {
+        width: 510px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .imagen-about{
+        width: 460px;
+    }
+
+    .imagen-about img{
+        width: 100%;
+    }
+
+    .description-about p {
+        font-size: 20px;
+    }
 
 }
 
-/* Laptops */
-@media (max-width: 1024px) {}
+/* Pagina Servicios */
+@media (max-width: 600px) {
+
+    .services{
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .services p{
+        font-size: 18px;
+        width: 470px;
+    }
+
+    .container-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-cards .card{
+        width: 450px;
+    }
+
+    .card h3{
+        font-size: 25px;
+    }
+
+    .card p{
+        width: 430px;
+    }
+
+    .llamada-accion{
+        width: 450px;
+    }
+
+}
+
+
+/* Pagina de Contactos */
+@media (max-width: 600px){
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 553px;
+    }
+    
+    .formulario{
+        width: 460px;
+    }
+}
+
