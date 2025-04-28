@@ -517,6 +517,7 @@ footer {
 /*************************************/
 /* MEDIA QUERIES */
 
+
 /* Si la pantalla tiene un ancho máximo de 600px (celular) */
 @media (max-width: 600px) {
     body {
@@ -725,3 +726,83 @@ max-width u max-height: Ancho o alto máximo del viewport*/
     }
 }
 
+/* Media queries desde 768 px -- Para tablets */
+
+/* Página Hero */
+@media (max-width: 992px){
+
+    .hero{
+        margin-top: 39px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title-hero{
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-hero h1{
+        text-align: center;
+    }
+
+    .subtitle-hero h4{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .imagen-hero{
+        width: 100%;
+    }
+
+    .btn{
+        width: 225px;
+    }
+}
+
+/* Página Sobre mí */
+
+@media (max-width: 992px){
+
+    .aboutMe{
+        align-items: center;
+    }
+
+    .contenedor-info-about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen-about{
+        width: 100%;
+    }
+
+    .imagen-about img{
+        width: 100%;
+    }
+
+    .description-about p{
+        font-size: 22px;
+    }
+}
+
+/* Página de Servicios */
+@media (max-width: 992px){
+
+    .services p{
+        font-size: 22px;
+    }
+
+    .card p{
+        font-size: 17px;
+        padding: 0px 15px;
+    }
+}
+
+/* Página de Contacto*/
+@media (max-width: 992px){
+
+    .formulario{
+        width: 70%;
+    }
+}
